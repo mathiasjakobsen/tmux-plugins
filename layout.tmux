@@ -29,5 +29,5 @@ tmux set-window-option -g monitor-activity on
 tmux set-window-option -g xterm-keys on
 tmux set-window-option -g automatic-rename off
 tmux set-window-option -g aggressive-resize off
-tmux set-window-option -g window-status-format ' #I-#W '
-tmux set-window-option -g window-status-current-format ' >#I-#W< '
+tmux set-window-option -g window-status-format ' #W (#I) '
+tmux set-window-option -g window-status-current-format ' #W (#I) '
