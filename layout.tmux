@@ -26,6 +26,7 @@ tmux set-option -g display-panes-colour colour196 #orange
 tmux set-window-option -g clock-mode-colour colour40 #green
 tmux set-window-option -g clock-mode-style 24
 tmux set-window-option -g monitor-activity on
+tmux set-window-option -g mode-mouse on
 tmux set-window-option -g xterm-keys on
 tmux set-window-option -g automatic-rename off
 tmux set-window-option -g aggressive-resize off
